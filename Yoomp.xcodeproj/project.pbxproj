@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146B969720E5D1FB008C58B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B969620E5D1FB008C58B6 /* AppDelegate.m */; };
+		146B969920E5D1FB008C58B6 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 146B969820E5D1FB008C58B6 /* art.scnassets */; };
+		146B969C20E5D1FB008C58B6 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B969B20E5D1FB008C58B6 /* GameViewController.m */; };
+		146B969F20E5D1FB008C58B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146B969D20E5D1FB008C58B6 /* Main.storyboard */; };
+		146B96A120E5D1FC008C58B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146B96A020E5D1FC008C58B6 /* Assets.xcassets */; };
+		146B96A420E5D1FC008C58B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146B96A220E5D1FC008C58B6 /* LaunchScreen.storyboard */; };
+		146B96A720E5D1FC008C58B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146B96A620E5D1FC008C58B6 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		146B969220E5D1FB008C58B6 /* Yoomp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yoomp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		146B969520E5D1FB008C58B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		146B969620E5D1FB008C58B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		146B969820E5D1FB008C58B6 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		146B969A20E5D1FB008C58B6 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		146B969B20E5D1FB008C58B6 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		146B969E20E5D1FB008C58B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		146B96A020E5D1FC008C58B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		146B96A320E5D1FC008C58B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		146B96A520E5D1FC008C58B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146B96A620E5D1FC008C58B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146B968F20E5D1FB008C58B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146B968920E5D1FB008C58B6 = {
+			isa = PBXGroup;
+			children = (
+				146B969420E5D1FB008C58B6 /* Yoomp */,
+				146B969320E5D1FB008C58B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		146B969320E5D1FB008C58B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146B969220E5D1FB008C58B6 /* Yoomp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146B969420E5D1FB008C58B6 /* Yoomp */ = {
+			isa = PBXGroup;
+			children = (
+				146B969520E5D1FB008C58B6 /* AppDelegate.h */,
+				146B969620E5D1FB008C58B6 /* AppDelegate.m */,
+				146B969820E5D1FB008C58B6 /* art.scnassets */,
+				146B969A20E5D1FB008C58B6 /* GameViewController.h */,
+				146B969B20E5D1FB008C58B6 /* GameViewController.m */,
+				146B969D20E5D1FB008C58B6 /* Main.storyboard */,
+				146B96A020E5D1FC008C58B6 /* Assets.xcassets */,
+				146B96A220E5D1FC008C58B6 /* LaunchScreen.storyboard */,
+				146B96A520E5D1FC008C58B6 /* Info.plist */,
+				146B96A620E5D1FC008C58B6 /* main.m */,
+			);
+			path = Yoomp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146B969120E5D1FB008C58B6 /* Yoomp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146B96AA20E5D1FC008C58B6 /* Build configuration list for PBXNativeTarget "Yoomp" */;
+			buildPhases = (
+				146B968E20E5D1FB008C58B6 /* Sources */,
+				146B968F20E5D1FB008C58B6 /* Frameworks */,
+				146B969020E5D1FB008C58B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yoomp;
+			productName = Yoomp;
+			productReference = 146B969220E5D1FB008C58B6 /* Yoomp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146B968A20E5D1FB008C58B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = openlogic;
+				TargetAttributes = {
+					146B969120E5D1FB008C58B6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 146B968D20E5D1FB008C58B6 /* Build configuration list for PBXProject "Yoomp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146B968920E5D1FB008C58B6;
+			productRefGroup = 146B969320E5D1FB008C58B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146B969120E5D1FB008C58B6 /* Yoomp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146B969020E5D1FB008C58B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146B969920E5D1FB008C58B6 /* art.scnassets in Resources */,
+				146B96A420E5D1FC008C58B6 /* LaunchScreen.storyboard in Resources */,
+				146B96A120E5D1FC008C58B6 /* Assets.xcassets in Resources */,
+				146B969F20E5D1FB008C58B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146B968E20E5D1FB008C58B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146B969C20E5D1FB008C58B6 /* GameViewController.m in Sources */,
+				146B96A720E5D1FC008C58B6 /* main.m in Sources */,
+				146B969720E5D1FB008C58B6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		146B969D20E5D1FB008C58B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146B969E20E5D1FB008C58B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		146B96A220E5D1FC008C58B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146B96A320E5D1FC008C58B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		146B96A820E5D1FC008C58B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		146B96A920E5D1FC008C58B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		146B96AB20E5D1FC008C58B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X34KG7M8TP;
+				INFOPLIST_FILE = Yoomp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.Yoomp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		146B96AC20E5D1FC008C58B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X34KG7M8TP;
+				INFOPLIST_FILE = Yoomp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openlogic.Yoomp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146B968D20E5D1FB008C58B6 /* Build configuration list for PBXProject "Yoomp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146B96A820E5D1FC008C58B6 /* Debug */,
+				146B96A920E5D1FC008C58B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146B96AA20E5D1FC008C58B6 /* Build configuration list for PBXNativeTarget "Yoomp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146B96AB20E5D1FC008C58B6 /* Debug */,
+				146B96AC20E5D1FC008C58B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 146B968A20E5D1FB008C58B6 /* Project object */;
+}
