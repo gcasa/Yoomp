@@ -1,0 +1,8 @@
+/Yoomp.app/
+/obj/
+/.dirstamp
+.DS_Store
+*.o
+*.app
+.DS_Store
+build
